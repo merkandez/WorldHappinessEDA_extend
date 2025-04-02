@@ -1,0 +1,19 @@
+# Entornos virtuales
+venv/
+.venv/
+ENV/
+env/
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos temporales o sistema
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
