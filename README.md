@@ -12,7 +12,6 @@ Se ha desarrollado de forma colaborativa, combinando análisis visual, estadíst
 📂 data/             # Dataset original
 📂 notebooks/        # Análisis completo en Jupyter Notebook
 📂 reports/          # Informe ejecutivo final en PDF y md
-📂 visualizations/   # Gráficos avanzados y mapas interactivos
 requirements.txt     # Dependencias del proyecto
 README.md            # Este documento
 ```
@@ -23,8 +22,8 @@ README.md            # Este documento
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/world-happiness-eda.git
-   cd world-happiness-eda
+   git clone https://github.com/merkandez/WorldHappinessEDA_extend.git
+   cd WorldHappinessEDA_extend
    ```
 
 2. Activa el entorno virtual (recomendado con `uv`):
@@ -34,6 +33,19 @@ README.md            # Este documento
    ```
 
 3. Abre el notebook en VS Code o Jupyter Lab y sigue el análisis paso a paso.
+
+---
+
+## 🔧 Instalación rápida con pip (alternativa a uv)
+
+Si no utilizas `uv`, puedes instalar manualmente las dependencias principales con:
+
+```bash
+pip install pandas numpy matplotlib seaborn plotly openpyxl
+pip install -U nbformat
+```
+
+Esto te permitirá ejecutar correctamente el análisis completo en Jupyter o VS Code.
 
 ---
 
@@ -54,23 +66,20 @@ El análisis se estructura en fases reutilizables:
 - Visualizaciones: `seaborn`, `matplotlib`, `plotly`
 
 ### 🔹 4. Visualización avanzada
-- 🌍 Mapa mundial interactivo por año (`plotly.choropleth`)
+- 🌍 Mapas mundiales interactivos por año (`plotly.choropleth`)
 - 📈 Gráfico comparativo de evolución por país (2011–2024)
 
 ---
 
-## 📊 Sección Extendida – Pruebas de Hipótesis
+## 📊 Sección Extendida – Pruebas de Hipótesis y Análisis Complementarios
 
-Se han añadido 3 bloques de análisis con pruebas de hipótesis, aplicando técnicas estadísticas clásicas para validar suposiciones con evidencia empírica:
+Se ha ampliado el proyecto con nuevas secciones orientadas a validar hipótesis estadísticas y explorar relaciones visuales relevantes:
 
-### 1. **Relación entre salud y felicidad**
-> Hipótesis: la esperanza de vida saludable influye de forma significativa en la percepción de felicidad.
-
-### 2. **Nivel educativo y bienestar**
+### 1. **Nivel educativo y bienestar**
 > Hipótesis: la educación, medida a través de indicadores externos, tiene correlación con la puntuación de felicidad.
 
-### 3. **[Nombre de la hipótesis 3 pendiente de definir]**
-> 📝 *Completar aquí una vez definida la tercera línea de análisis.*
+### 2. **Inflación y percepción de felicidad**
+> Hipótesis: la inflación está inversamente relacionada con los niveles de felicidad registrados por país.
 
 Se han aplicado pruebas como:
 - **t de Student**
@@ -78,7 +87,18 @@ Se han aplicado pruebas como:
 - **Pruebas de correlación (Pearson, Spearman)**
 - **Mann-Whitney U** y **Tukey HSD**
 
-Referencias y ejemplos completos en el documento `/notebooks/hypothesis_testing.ipynb`.
+📁 Referencias y ejemplos completos en: `/notebooks/hypothesis_testing.ipynb`
+
+---
+
+### 📈 Resumen adicional: Regresión entre esperanza de vida y apoyo social
+
+Se ha añadido un análisis de regresión lineal entre los factores:
+- `Healthy life expectancy`
+- `Social support`
+
+Y su relación conjunta con el índice de felicidad (`Ladder score`).  
+Este bloque busca mostrar gráficamente cómo influyen de forma combinada dos dimensiones sociales clave en el bienestar general.
 
 ---
 
@@ -119,21 +139,6 @@ Resumen ejecutivo en:
 - `JupyterLab` + VS Code
 
 ---
-
-
----
-
-## 🔧 Instalación rápida con pip (alternativa a uv)
-
-Si no utilizas `uv`, puedes instalar manualmente las dependencias principales con:
-
-```bash
-pip install pandas numpy matplotlib seaborn plotly openpyxl
-pip install -U nbformat
-```
-
-Esto te permitirá ejecutar correctamente el análisis completo en Jupyter o VS Code.
-
 
 ## 📚 Créditos
 
