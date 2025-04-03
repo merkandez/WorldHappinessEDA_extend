@@ -95,10 +95,20 @@ Resumen ejecutivo en:
 
 ## 👥 Contribuidores
 
-- 🧑‍💻 [Nombre del integrante 1]
-- 🧑‍💻 [Nombre del integrante 2]
-- 🧑‍💻 [Nombre del integrante 3]
-> *Completar con los nombres y enlaces a GitHub si procede*
+- **Anca Bacria**  
+  [![GitHub](https://img.shields.io/badge/-@abac0-181717?style=flat&logo=github&logoColor=white)](https://github.com/a-bac-0)
+
+- **Andreína Suescum**  
+  [![GitHub](https://img.shields.io/badge/-@mariasuescum-181717?style=flat&logo=github&logoColor=white)](https://github.com/mariasuescum)
+
+- **Alla Haruntyunyan**  
+  [![GitHub](https://img.shields.io/badge/-@alharuty-181717?style=flat&logo=github&logoColor=white)](https://github.com/alharuty)
+
+- **Mariela Adimari**  
+  [![GitHub](https://img.shields.io/badge/-@marieadi-181717?style=flat&logo=github&logoColor=white)](https://github.com/marie-adi)
+
+- **César Mercado**  
+  [![GitHub](https://img.shields.io/badge/-@merkandez-181717?style=flat&logo=github&logoColor=white)](https://github.com/merkandez)
 
 ---
 
@@ -128,4 +138,4 @@ Esto te permitirá ejecutar correctamente el análisis completo en Jupyter o VS 
 ## 📚 Créditos
 
 Este trabajo ha sido realizado como ejercicio formativo en análisis de datos.  
-El objetivo es desarrollar un flujo completo de análisis con Python, aplicando visualización, estadística y presentación ejecutiva de resultados.
+El objetivo es desarrollar un flujo completo de análisis con Python, aplicando visualización, estadística, pruebas de hipótesis y presentación ejecutiva de resultados.
